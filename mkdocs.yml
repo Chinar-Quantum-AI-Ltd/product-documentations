@@ -1,0 +1,48 @@
+site_name: Dynamic TS By CQAI
+
+theme:
+  name: material
+  language: en
+  logo: assets/images/cwai-logo.png
+  favicon: assets/images/favicon.ico  # optional
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+
+nav:
+  - Home: index.md
+  - Data Loader: data_loader.md
+  - Correlation: lag_correlation.md
+  - Stationarity: stationarity.md
+  - Volatility: volatility_check.md
+  - Initial Analysis: analysis.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - tables
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.highlight
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.critic
+  - pymdownx.keys
+
+plugins:
+  - search
