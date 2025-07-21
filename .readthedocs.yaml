@@ -6,14 +6,11 @@ build:
     python: "3.10"
   jobs:
     pre_install:
-      - pip install mkdocs-material  # replace with your theme if different
+      - pip install mkdocs-material  # or any other mkdocs theme you're using
 
 python:
   install:
-    - requirements: requirements.txt  # since it's in the root
-
-sphinx:
-  configuration: false  # explicitly disable Sphinx
+    - requirements: requirements.txt  # this is in the root
 
 mkdocs:
-  configuration: mkdocs.yml  # assumes this is in the root
+  configuration: mkdocs.yml
