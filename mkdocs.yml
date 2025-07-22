@@ -3,7 +3,7 @@ site_name: Dynamic TS By CQAI
 theme:
   name: material
   language: en
-  logo: assets/images/cwai-logo.png
+  logo: assets/images/logo_cqai.png
   favicon: assets/images/favicon.ico  # optional
   palette:
     - scheme: default
